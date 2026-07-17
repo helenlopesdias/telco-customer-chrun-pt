@@ -15,11 +15,21 @@ As análises e a engenharia de dados foram desenvolvidas utilizando a linguagem 
 ---
 
 ## 📂 Estrutura do Repositório
-*   `queries/01_data_cleaning.sql`: Query responsável pelo tratamento de dados, conversão de tipos de texto para decimal, tratamento de strings vazias com `COALESCE` e criação de faixas de tempo (*tenure groups*).
-*   `queries/02_kpis_saude_negocio.sql`: Indicadores gerais da empresa, como receita total, receita mensal perdida e taxa de churn geral.
-*   `queries/03_perfil_cliente.sql`: Cruzamento de dados demográficos (como estado civil/parceiros) com o volume de cancelamentos.
-*   `queries/04_analise_contratos.sql`: Análise detalhada das taxas de churn segmentadas por tipo de contrato.
-*   `queries/05_analise_financeira.sql`: Estudo do faturamento mensal por método de pagamento e cálculo de *market share* de cada modalidade.
+
+```text
+telco-customer-churn-sql/
+│
+├── 📂 queries/
+│   ├── 01_data_cleaning.sql        <-- Onde entra o SAFE_CAST, limpeza de nulos, etc.
+│   ├── 02_kpis_saude_negocio.sql   <-- Faturamento, taxa de churn geral, lost revenue.
+│   ├── 03_perfil_cliente.sql       <-- Análise de parceiros (Partner), idosos, tenure.
+│   ├── 04_analise_contratos.sql    <-- Churn rate por tipo de contrato (o GROUP BY que fixamos!).
+│   └── 05_analise_financeira.sql   <-- Faturamento por forma de pagamento e o Market Share (OVER).
+│
+├── 📂 data/
+│   └── dataset_info.md             <-- Link para a base original (não suba arquivos CSV gigantes).
+│
+└── 📄 README.md                    <-- O cartão de visitas do seu projeto (Essencial!).
 
 ---
 

@@ -20,24 +20,17 @@ As análises e a engenharia de dados foram desenvolvidas utilizando a linguagem 
 telco-customer-churn-sql/
 │
 ├── 📂 queries/
-│   ├── 01_data_cleaning.sql        <-- Onde entra o SAFE_CAST, limpeza de nulos, etc.
-│   ├── 02_kpis_saude_negocio.sql   <-- Faturamento, taxa de churn geral, lost revenue.
-│   ├── 03_perfil_cliente.sql       <-- Análise de parceiros (Partner), idosos, tenure.
-│   ├── 04_analise_contratos.sql    <-- Churn rate por tipo de contrato (o GROUP BY que fixamos!).
-│   └── 05_analise_financeira.sql   <-- Faturamento por forma de pagamento e o Market Share (OVER).
+│   ├── 01_data_cleaning.sql       
+│   ├── 02_kpis_saude_negocio.sql  
+│   ├── 03_perfil_cliente.sql       
+│   ├── 04_analise_contratos.sql    
+│   ├── 05-impacto-formas-pagamento.sql
+|   └── 06_analise_financeira.sql   
 │
 ├── 📂 data/
-│   └── dataset_info.md             <-- Link para a base original (não suba arquivos CSV gigantes).
+│   └── dataset_info.md  
 │
-└── 📄 README.md                    <-- O cartão de visitas do seu projeto (Essencial!).
-
----
-
-## Principais Insights Encontrados (Até o Momento)
-
-*   **O Grande Gargalo dos Contratos:** Clientes com contratos mensais (*Month-to-month*) possuem uma taxa de churn alarmante de **42,71%**, enquanto contratos de longo prazo (2 anos) mantêm a evasão sob controle, abaixo de **3%**.
-*   **Relação Comportamental:** Clientes que declararam não possuir parceiros/cônjuges cancelam quase o dobro (1.200 cancelamentos) em relação aos clientes que possuem parceiros (669 cancelamentos).
-*   **Risco no Faturamento:** O método de pagamento via *Electronic Check* (Boleto/Cheque eletrônico) é a maior fonte de faturamento mensal da empresa, porém concentra o maior volume absoluto de churn, gerando um sinal de alerta para o negócio.
+└── 📄 README.md            
 
 ---
 

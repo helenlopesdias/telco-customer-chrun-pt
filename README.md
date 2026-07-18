@@ -40,6 +40,7 @@ telco-customer-churn-sql/
 
 
 ## Próximos Passos do Projeto
+
 - [ ] Finalizar a documentação técnica das queries do repositório.
 - [ ] Conectar a View tratada do BigQuery a uma ferramenta de Data Visualization (Power BI / Tableau) para construção de um Dashboard interativo.
 - [ ] Criar recomendações estratégicas de negócios para o time de marketing focar na retenção dos perfis de maior risco.

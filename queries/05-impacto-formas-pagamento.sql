@@ -5,7 +5,7 @@ SELECT
   COUNT(customerID) AS total_customers,
   SUM(CASE WHEN Churn = TRUE THEN 1 ELSE 0 END) AS total_churn,
   ROUND(
-    100 * AVG(CASE WHEN Churn = TRUE THEN 1.0 ELSE 0.0 END), 
+    100 * AVG(CASE WHEN Churn = TRUE THEN 1 ELSE 0 END), 
     2
   ) AS churn_rate_percentage,
 FROM

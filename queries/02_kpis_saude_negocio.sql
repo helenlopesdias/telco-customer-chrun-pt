@@ -1,4 +1,4 @@
--- PERFIL DE CLIENTE E COMPORTAMENTO --
+-- PERFIL DE CLIENTE E COMPORTAMENTO 
 
 SELECT
 -- Tenure médio de quem cancelou vs quem continua ativo:

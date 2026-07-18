@@ -34,7 +34,10 @@ telco-customer-churn-sql/
 │
 └── 📄 README.md                          <-- Documentação do projeto e insights de negócio.    
 
+```
+
 ---
+
 
 ## Próximos Passos do Projeto
 - [ ] Finalizar a documentação técnica das queries do repositório.

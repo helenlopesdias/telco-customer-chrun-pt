@@ -8,9 +8,9 @@ SELECT
 
 -- % do faturamento total da empresa
 ROUND(
-    100 * SAFE_DIVIDE(
-      SUM(MonthlyCharges), 
-      SUM(SUM(MonthlyCharges)) OVER()
+  SAFE_DIVIDE(
+    SUM(MonthlyCharges), 
+    SUM(SUM(MonthlyCharges)) OVER()
     ), 2) AS revenue_share_percentage
 FROM
   `clear-aurora-469314-a0`.Custumer_Churn.telco_customer_churn

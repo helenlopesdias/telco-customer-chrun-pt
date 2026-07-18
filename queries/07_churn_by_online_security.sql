@@ -1,4 +1,5 @@
 -- TAXAS DE CHURN ENTRE CLIENTES QUE POSSUEM FIBRA ÓPTICA, DSL E QUE NÃO TÊM INTERNET
+
 SELECT  
   InternetService,
   COUNT(customerID) AS total_customers,

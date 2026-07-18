@@ -4,7 +4,7 @@ SELECT
   TechSupport,
   COUNT(customerID) AS total_customers,
   
-  -- Média de churn
+  -- Média de cancelamento
   ROUND(
     AVG(CASE WHEN Churn = TRUE AND TechSupport = 'No' THEN 1 ELSE 0 END), 2
   ) AS rate_not_oline_security_churn

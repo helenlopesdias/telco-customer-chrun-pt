@@ -1,12 +1,14 @@
+-- ANÁLISE DE CHURN PELO PERFIL DO CLIENTE
+
 SELECT
   COUNT(DISTINCT customerID) AS total_customers,
   COUNT(CASE WHEN Churn = TRUE THEN 1 ELSE 0 END) AS customer_churn,
   
 -- % de clientes que cancelaram o serviço
   ROUND(
-    100 * SAFE_DIVIDE(
-      SUM(CASE WHEN Churn = TRUE THEN 1 ELSE 0 END),
-      COUNT(DISTINCT customerID)
+    SAFE_DIVIDE(
+    SUM(CASE WHEN Churn = TRUE THEN 1 ELSE 0 END),
+    COUNT(DISTINCT customerID)
     ),
     2
   ) AS churn_rate,

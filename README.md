@@ -20,17 +20,19 @@ As análises e a engenharia de dados foram desenvolvidas utilizando a linguagem 
 telco-customer-churn-sql/
 │
 ├── 📂 queries/
-│   ├── 01_data_cleaning.sql       
-│   ├── 02_kpis_saude_negocio.sql  
-│   ├── 03_perfil_cliente.sql       
-│   ├── 04_analise_contratos.sql    
-│   ├── 05-impacto-formas-pagamento.sql
-|   └── 06_analise_financeira.sql   
+│   ├── 01_data_cleaning.sql              <-- Tratamento de tipos, nulos e criação de faixas de tenure.
+│   ├── 02_kpis_saude_negocio.sql         <-- Faturamento, taxa de churn geral e lost revenue.
+│   ├── 03_perfil_cliente.sql             <-- Análise demográfica e comportamental (parceiros, dependentes).
+│   ├── 04_analise_contratos.sql          <-- Churn rate por tipo de contrato (mensal vs longo prazo).
+│   ├── 05_analise_financeira.sql         <-- Participação de faturamento por método de pagamento (Window Function).
+│   ├── 06_churn_by_internet_service.sql  <-- Análise de quebra de retenção por tipo de internet (Fibra Óptica).
+│   ├── 07_churn_by_additional_services.sql <-- Impacto da ausência de suporte técnico e segurança online.
+│   └── 08_customer_engagement_services.sql <-- Score de engajamento por volume de serviços assinados (CTE).
 │
 ├── 📂 data/
-│   └── dataset_info.md  
+│   └── dataset_info.md                   <-- Informações e link para a base original do Kaggle.
 │
-└── 📄 README.md            
+└── 📄 README.md                          <-- Documentação do projeto e insights de negócio.    
 
 ---
 

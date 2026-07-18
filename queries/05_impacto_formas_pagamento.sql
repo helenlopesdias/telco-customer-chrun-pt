@@ -1,11 +1,15 @@
--- Impacto das Formas de Pagamento --
+-- IMPACTO DAS FORMAS DE PAGAMENTO
 
 SELECT
   PaymentMethod,
   COUNT(customerID) AS total_customers,
+  
+  -- Churn total
   SUM(CASE WHEN Churn = TRUE THEN 1 ELSE 0 END) AS total_churn,
+
+  -- Média de cancelamentos
   ROUND(
-    100 * AVG(CASE WHEN Churn = TRUE THEN 1 ELSE 0 END), 
+    AVG(CASE WHEN Churn = TRUE THEN 1 ELSE 0 END), 
     2
   ) AS churn_rate_percentage,
 FROM

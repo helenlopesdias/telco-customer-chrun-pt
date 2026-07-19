@@ -14,4 +14,4 @@ FROM
 GROUP BY
   OnlineSecurity
 ORDER BY 
-  rate_online_security_churn DESC;
+  rate_online_security_churn DESC

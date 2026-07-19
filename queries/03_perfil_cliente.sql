@@ -14,8 +14,12 @@ SELECT
   ) AS churn_rate,
 
 -- Receita total e valor mensal médio pago pelos clientes:
-  SUM(SAFE_CAST(TotalCharges AS FLOAT64)) AS total_revenue,
-  AVG(MonthlyCharges) AS monthly_charges_rate,
+  ROUND(
+    SUM(SAFE_CAST(TotalCharges AS FLOAT64)), 2
+    ) AS total_revenue,
+  ROUND(
+    AVG(MonthlyCharges), 2
+    ) AS monthly_charges_rate,
   
 -- Receita perdida por Churn:
   ROUND(

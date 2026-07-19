@@ -12,4 +12,4 @@ FROM
 GROUP BY
   TechSupport
 ORDER BY 
-  rate_tech_support_churn DESC;
+  rate_tech_support_churn DESC

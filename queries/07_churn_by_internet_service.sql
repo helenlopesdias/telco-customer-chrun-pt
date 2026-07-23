@@ -3,7 +3,9 @@
 SELECT  
   InternetService,
   COUNT(customerID) AS total_customers,
-  
+-- Total de clientes ativos por tipo de serviço de internet
+  SUM(CASE WHEN Churn = FALSE THEN 1 ELSE 0 END) AS actives_costumers,
+
   -- Total de churn por tipo de serviço de internet
   SUM(CASE WHEN Churn = TRUE THEN 1 ELSE 0 END) AS total_churn,
  

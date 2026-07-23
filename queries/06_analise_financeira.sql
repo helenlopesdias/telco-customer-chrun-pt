@@ -8,7 +8,12 @@ SELECT
   ROUND(
     SUM(MonthlyCharges), 2) AS total_monthly_revenue,
 
--- Receita perdida por método de pagamento
+-- Receita mensal retida (clientes ativos)
+  ROUND(
+    SUM(CASE WHEN Churn = FALSE THEN MonthlyCharges END), 2 
+  ) AS monthly_revenue_win,
+
+-- Receita mensal perdida (churn)
 ROUND(
   SUM(CASE WHEN Churn = TRUE THEN MonthlyCharges END), 2
 ) AS monthly_revenue_lost,

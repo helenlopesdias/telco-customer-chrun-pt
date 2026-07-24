@@ -14,6 +14,7 @@ As análises e a engenharia de dados foram desenvolvidas utilizando a linguagem 
 
 ---
 
+```
 📁 Estrutura do Repositório
 
 telco-customer-churn-sql/

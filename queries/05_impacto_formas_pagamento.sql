@@ -4,7 +4,7 @@ SELECT
   PaymentMethod,
   COUNT(customerID) AS total_customers,
   
-  -- Númo de clientes ativos por método de pagamento
+  -- Número de clientes ativos por método de pagamento
   SUM(CASE WHEN Churn = FALSE THEN 1 ELSE 0 END) AS active_customers,
 
   -- Número de cancelamento

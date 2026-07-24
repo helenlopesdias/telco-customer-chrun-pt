@@ -14,25 +14,28 @@ As análises e a engenharia de dados foram desenvolvidas utilizando a linguagem 
 
 ---
 
-## 📂 Estrutura do Repositório
+📁 Estrutura do Repositório
 
-```text
 telco-customer-churn-sql/
 │
 ├── 📂 queries/
-│   ├── 01_data_cleaning.sql                    <-- Tratamento de tipos, nulos e criação de faixas de tenure.
-│   ├── 02_kpis_saude_negocio.sql               <-- Faturamento, taxa de churn geral e lost revenue.
-│   ├── 03_perfil_cliente.sql                   <-- Análise demográfica e comportamental (parceiros, dependentes).
-│   ├── 04_analise_contratos.sql                <-- Churn rate por tipo de contrato (mensal vs longo prazo).
-│   ├── 05_analise_financeira.sql               <-- Participação de faturamento por método de pagamento (Window Function).
-│   ├── 06_churn_by_internet_service.sql        <-- Análise de quebra de retenção por tipo de internet (Fibra Óptica).
-│   ├── 07_churn_by_additional_services.sql     <-- Impacto da ausência de suporte técnico e segurança online.
-│   └── 08_customer_engagement_services.sql     <-- Score de engajamento por volume de serviços assinados (CTE).
+│   ├── 01_data_cleaning.sql                <-- Tratamento e limpeza da base de dados
+│   ├── 02_kpis_saude_negocio.sql           <-- Métricas gerais de saúde do negócio (KPIs)
+│   ├── 03_perfil_cliente.sql               <-- Análise do perfil demográfico dos clientes
+│   ├── 04_analise_contratos.sql            <-- Churn rate por tipo de contrato
+│   ├── 05_impacto_formas_pagamento.sql     <-- Participação e churn por forma de pagamento
+│   ├── 06_analise_financeira.sql           <-- Faturamento e receita mensal perdida
+│   ├── 07_churn_by_internet_service.sql    <-- Análise de cancelamento por serviço de internet
+│   ├── 08_churn_by_online_security.sql     <-- Impacto da segurança online na retenção
+│   ├── 09_churn_by_tech_suport.sql         <-- Impacto do suporte técnico na retenção
+│   ├── 10_customer_engagement_service.sql  <-- Score de engajamento por número de serviços
+│   ├── 11_churn_by_additional_services.sql <-- Comparativo unificado de serviços adicionais
+│   └── 12_churn_by_tenure_groups.sql       <-- Efeito do tempo de casa (tenure) no churn
 │
 ├── 📂 data/
-│   └── dataset_info.md                   <-- Informações e link para a base original do Kaggle.
+│   └── dataset_info.md                     <-- Informações e dicionário de dados da base
 │
-└── 📄 README.md                          <-- Documentação do projeto e insights de negócio.    
+└── 📄 README.md                            <-- Documentação completa do projeto
 
 ```
 

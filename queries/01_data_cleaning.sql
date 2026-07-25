@@ -56,10 +56,10 @@ SELECT
   MonthlyCharges,
 
   -- SAFE_CAST transforma os espaços vazios de novos clientes (tenure=0) em NULL
-  -- Coalesce substitui esse NULL por 0.0 para não quebrar as somas financeiras
-  COALESCE(SAFE_CAST(TotalCharges AS FLOAT64), 0.0) AS TotalCharges,
+  -- Coalesce substitui esse NULL por 0 para não quebrar as somas financeiras
+  COALESCE(SAFE_CAST(TotalCharges AS FLOAT64), 0) AS TotalCharges,
   
   Churn
 
 FROM 
-  `clear-aurora-469314-a0.Custumer_Churn.telco_customer_churn`;
+  `clear-aurora-469314-a0.Custumer_Churn.telco_customer_churn`

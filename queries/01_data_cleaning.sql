@@ -1,7 +1,7 @@
 -- ETAPA DE LIMPEZA DOS DADOS
 
 CREATE OR REPLACE VIEW `clear-aurora-469314-a0.Custumer_Churn.vw_telco_customer_churn_clean` AS
--- ETAPA DE LIMPEZA E TRATAMENTO DOS DADOS (VIEW)
+  
 SELECT
   -- 1 Identificação do cliente
   customerID,

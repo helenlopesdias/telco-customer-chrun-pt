@@ -1,6 +1,6 @@
 https://github.com/user-attachments/assets/9028830d-18f6-4c98-a2e3-a8a94b174cec
 
-# Telco Customer Churn Insights | IBM Analysis
+# Telco Customer Churn Insights | IBM Analysis (em desenvolvimento)
 
 ## Sobre o Projeto
 Este projeto realiza uma análise ponta a ponta sobre o cancelamento de clientes (**Churn**) da empresa de telecomunicações Telco (dataset IBM). O objetivo principal é identificar os principais fatores de perda de receita, compreender o comportamento do cliente ao longo do ciclo de vida e fornecer direcionamentos estratégicos para retenção.
@@ -8,6 +8,7 @@ Este projeto realiza uma análise ponta a ponta sobre o cancelamento de clientes
 ---
 
 ## Tecnologias e Ferramentas
+
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
 ![Google BigQuery](https://img.shields.io/badge/Google_BigQuery-4285F4?style=for-the-badge&logo=googlebigquery&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)

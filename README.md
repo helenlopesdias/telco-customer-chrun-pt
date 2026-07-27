@@ -168,31 +168,32 @@ Clientes com maior quantidade de serviços contratados apresentaram menor taxa d
 
 ---
 
+
 # Recomendações Estratégicas
 
-- Com base nos resultados obtidos, foram propostas algumas ações.
+Com base nos resultados obtidos, foram propostas algumas ações.
 
-### Incentivar pagamento automático
+### - Incentivar pagamento automático
 
-- Criar benefícios para clientes que utilizem débito automático ou cartão de crédito, reduzindo a dependência do cheque eletrônico.
-
----
-
-### Campanhas de retenção
-
-- Concentrar campanhas de relacionamento entre o terceiro e o sexto mês de contrato, período em que ocorre grande parte dos cancelamentos.
+Criar benefícios para clientes que utilizem débito automático ou cartão de crédito, reduzindo a dependência do cheque eletrônico.
 
 ---
 
-### Estratégias de Upsell
+### - Campanhas de retenção
 
-- Estimular clientes do plano mensal a migrarem para contratos anuais ou bienais através de ofertas personalizadas.
+Concentrar campanhas de relacionamento entre o terceiro e o sexto mês de contrato, período em que ocorre grande parte dos cancelamentos.
 
 ---
 
-### Fidelização por serviços
+### - Estratégias de Upsell
 
-- Incentivar a contratação de serviços adicionais para aumentar o engajamento e reduzir a probabilidade de cancelamento.
+Estimular clientes do plano mensal a migrarem para contratos anuais ou bienais através de ofertas personalizadas.
+
+---
+
+### - Fidelização por serviços
+
+Incentivar a contratação de serviços adicionais para aumentar o engajamento e reduzir a probabilidade de cancelamento.
 
 ---
 

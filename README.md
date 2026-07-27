@@ -12,9 +12,11 @@ Todo o projeto foi desenvolvido seguindo um fluxo completo de análise de dados,
 
 ## Dashboard
 
-<p align="center">
-  <img src="images/dashboard_customer_churn.png" width="100%">
-</p>
+
+
+Uploading Video_Dashbord_Analise_Churn_LinkedIn.mp4…
+
+
 
 ---
 

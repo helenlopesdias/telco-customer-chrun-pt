@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/e2bec9de-edd0-4bdd-a9e5-fe2270ac5114
 
 ---
 
-# 🛠️ Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 <div align="center">
 
@@ -34,7 +34,7 @@ https://github.com/user-attachments/assets/e2bec9de-edd0-4bdd-a9e5-fe2270ac5114
 
 ---
 
-# ⚙️ Fluxo do Projeto
+# Fluxo do Projeto
 
 ```text
 Coleta dos Dados
@@ -60,7 +60,7 @@ Recomendações Estratégicas
 
 ---
 
-# 🔍 Etapas Desenvolvidas
+# Etapas Desenvolvidas
 
 ### 📂 Coleta dos Dados
 
@@ -69,7 +69,7 @@ Recomendações Estratégicas
 
 ---
 
-### 🧹 Limpeza dos Dados
+### Limpeza dos Dados
 
 Nesta etapa foram realizadas:
 
@@ -81,7 +81,7 @@ Nesta etapa foram realizadas:
 
 ---
 
-### 📊 Análise Exploratória (EDA)
+### Análise Exploratória (EDA)
 
 Utilizando **Python**, foram realizadas análises para identificar padrões entre o cancelamento e o comportamento dos clientes.
 
@@ -115,7 +115,7 @@ Foram desenvolvidas consultas para:
 
 ---
 
-## 📊 KPIs Monitorados
+## KPIs Monitorados
 
 - Total de Clientes
 - Receita Total
@@ -126,11 +126,11 @@ Foram desenvolvidas consultas para:
 
 ---
 
-# 📈 Principais Insights
+# Principais Insights
 
 Após a análise dos dados, foram identificados alguns padrões importantes.
 
-### 📌 Contratos Mensais apresentam maior risco
+### 📌 Contratos Mensais apresentam maior taxa de churn
 
 Clientes com contratos mensais possuem a maior taxa de cancelamento e menor tempo médio de permanência.
 
@@ -168,7 +168,7 @@ Clientes com maior quantidade de serviços contratados apresentaram menor taxa d
 
 ---
 
-# 💡 Recomendações Estratégicas
+# Recomendações Estratégicas
 
 Com base nos resultados obtidos, foram propostas algumas ações.
 
@@ -224,7 +224,7 @@ customer-churn-analysis
 
 ---
 
-# 🎯 Competências Demonstradas
+# Competências Demonstradas
 
 - SQL para Análise de Dados
 - Limpeza e Preparação de Dados
@@ -240,7 +240,7 @@ customer-churn-analysis
 
 ---
 
-## 📚 Fonte dos Dados
+## Fonte dos Dados
 
 **Dataset:** Telco Customer Churn
 

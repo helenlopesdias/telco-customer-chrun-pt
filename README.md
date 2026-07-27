@@ -13,9 +13,7 @@ Todo o projeto foi desenvolvido seguindo um fluxo completo de análise de dados,
 ## Dashboard
 
 
-
-Uploading Video_Dashbord_Analise_Churn_LinkedIn.mp4…
-
+https://github.com/user-attachments/assets/e2bec9de-edd0-4bdd-a9e5-fe2270ac5114
 
 
 ---
